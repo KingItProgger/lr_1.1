@@ -1,3 +1,8 @@
 def say(a):
     print(a)
 say('hello')
+
+names=['ivan','petr','roman','dmitri']
+for name in names:
+    say('Hello, ')
+    print(name)
