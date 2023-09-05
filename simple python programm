@@ -1,0 +1,3 @@
+def say(a):
+    print(a)
+say('hello')
