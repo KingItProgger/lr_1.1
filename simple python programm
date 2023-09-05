@@ -14,3 +14,10 @@ class Person():
         self.height=height
         self.weight=weight
     
+ def __str__ (self):
+        return str(self.name,self.age,self.height,self.weight)
+
+print ('hello,world')    
+
+def plus(a,b):
+    print (a+b)
